@@ -1,12 +1,45 @@
 .oreng-bg{
- background-color: rgb(153, 194, 194);
- background-image: url(bg-1.png);
- background-repeat: no-repeat;
+ padding-top: 80px;
+
  border-radius: 8px;  
 }
-.container{
-  margin-bottom: 100px;
+.background1{
+ height: 205px;
+ width: 205px;
+ transform: translateY(320px);
 }
+.background2{
+  height: 400px;
+  width: 70px;
+  transform: translateY(80px);
+   margin-left: 75px;
+}
+
+.section{
+  height: 600px;
+}
+#carouselExampleRide{
+  width: 100%;
+
+  p{
+    width: 80%;
+    text-align: justify;
+    
+  }
+}
+.slider-bg{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.second{
+ position: absolute;
+ top: 20px;
+ 
+}
+
+
 .button{
      background-color: black;
      color: aliceblue;
@@ -15,6 +48,62 @@
      padding: 9px 25px;
      cursor: pointer;
 }
-.carousel-item{
-    padding: 20px 40px;
-} 
+ 
+.card{
+  border: none;
+  box-shadow: 5px 5px 10px lightgray;
+}
+#see{
+  border: none;
+  color: orange;
+ background-color: white;
+
+}
+.card-body{
+  padding-left: 110px;
+  
+}
+.all{
+  text-align: end;
+}
+#laptop{
+  padding-top: 80px;
+}
+
+.line{
+  width: 50px;
+  height: 5px;
+
+  text-decoration: none;
+  background-image: linear-gradient( 45deg ,lightsalmon,tomato );
+}
+.png{
+  
+  margin: 20px;
+  height: 260px;
+  width: 240px;
+}
+.shoe{
+
+}
+.half{
+
+}
+.bag{
+  background-image: url(Categories/bag.png);
+}
+
+
+
+
+
+
+.all{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px auto;
+}
+.first-half{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
